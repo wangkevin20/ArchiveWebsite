@@ -1,0 +1,207 @@
+.top-container {
+  background-color: #17252a; /* Background color for the smaller container */
+  height: 90px;
+  width: 100vw; /* Fill the entire width of the viewport */
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+  border-radius: 5px;
+  margin-bottom: 20px; /* Add margin to separate from the original container */
+  text-align: center; /* Center align text */
+}
+
+.right{
+  text-align: right;
+  position: relative;
+  right: 20px;
+  color: #feffff;
+  font-size: 30px;
+}
+
+.side {
+  height: 750px;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #2b7a78;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.2s;
+  
+}
+
+
+/* The sidepanel links */
+.side a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  margin-bottom: 10px;
+}
+
+
+/* Position the close button */
+.side .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  
+}
+
+/*  the button that is used to open the sidepanel and the colours */
+.openbtn {
+  right: 91%;
+  top: 0%;
+  width:138px;
+  height:90px;
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #17252a;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  
+}
+/*  sidepanel colour */
+.openbtn:hover {
+  background-color: #2b7a78;
+}
+
+
+.about-btn {
+  right: 78%;
+  top: 0%;
+  width:138px;
+  height:70px;
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #17252a;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  
+}
+/*  sidepanel colour */
+.about-btn:hover {
+  background-color: #2b7a78;
+}
+
+.content-btn {
+  right: 68%;
+  top: 0%;
+  width:138px;
+  height:70px;
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #17252a;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  
+}
+/*  sidepanel colour */
+.content-btn:hover {
+  background-color: #2b7a78;
+}
+
+
+
+
+
+.mid-container{
+  height: 600px; /* Change height to auto */
+  width: 100vw;
+  position: relative;
+  top: 645px;
+  left: 0%;
+
+}
+.head1{
+  font-size: 25px;
+  left: 18px;
+  position: relative;
+
+}
+
+.para{
+  font-size: 22px;
+  left: 10px;
+  position: relative;
+
+}
+
+.container {
+  background-color: #3aafa9;
+  height: 600px; /* Change height to auto */
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  color: black;
+  position: relative;
+      top: 50px;
+      font-size: 3em;
+      z-index: 1;
+}
+.subtitle {
+ color: black;
+ position: relative;
+ top: 55px;
+ left: 15%;
+  max-width: 70%;
+  text-align: center; /* Center the subtitle text */
+  margin-bottom: 20px; /* Adjusted margin for spacing */
+  z-index: 1;
+  font-size: 23px;
+}
+
+
+.image {
+  width: 600px; /* Set the width of the image */
+  height: 400px; /* Set the height of the image */
+  object-fit: cover; 
+  transition: transform 0.5s ease; /* Added transition for smooth effect */
+}
+
+.more {
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25vh; /* Adjusted to account for the height of the blue box */
+}
+
+.end{
+  text-align: center; /* Center align text */
+top: 55px;
+right: 55px;
+}
+
+
+.spacer {
+  height: 150px;
+}
+
